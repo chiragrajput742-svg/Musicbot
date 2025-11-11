@@ -1,0 +1,33 @@
+{
+  "name": "Telegram Music Bot",
+  "description": "A Telegram Music Bot that plays songs in voice chat using Pyrogram + pytgcalls.",
+  "repository": "https://github.com/chiragrajput742-svg/Musicbot",
+  "keywords": ["telegram", "music", "bot", "heroku"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Get this from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token from @BotFather",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Optional Pyrogram session string",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram user ID",
+      "required": true
+    }
+  }
+}
