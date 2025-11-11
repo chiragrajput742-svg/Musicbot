@@ -1,6 +1,9 @@
 pyrogram==2.0.106
 tgcrypto
-pytgcalls
+pytgcalls==3.0.0.dev22
+python-dotenv
+aiohttp
 yt-dlp
-ffmpeg
+requests
+asyncio
 
