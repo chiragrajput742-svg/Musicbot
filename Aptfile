@@ -1,0 +1,12 @@
+ffmpeg
+libsm6
+libxext6
+libavformat-dev
+libavcodec-dev
+libavdevice-dev
+libavutil-dev
+libswresample-dev
+libswscale-dev
+git add Aptfile
+git commit -m "add ffmpeg and libav deps for pytgcalls"
+git push heroku main
